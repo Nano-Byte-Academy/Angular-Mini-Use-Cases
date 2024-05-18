@@ -1,0 +1,14 @@
+server:
+  port: 8989
+
+#Database Setup - PostgreSQL
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/angular?currentSchema=miniusecases
+    username: postgres
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+
